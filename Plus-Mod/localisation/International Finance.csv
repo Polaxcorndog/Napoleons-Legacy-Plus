@@ -1,0 +1,13 @@
+#;;;;;;;;;;;;;x;;;
+will_receive_title;Request A Grant;;;;;;;;;;;;x;;;
+will_receive_desc;This will request a grant from other players. Please note they must have chosen the decision to enable giving grants for the request to go through. It can be reversed at any time.;;;;;;;;;;;;x;;;
+#will_not_receive_title;Disable Receiving Grants;;;;;;;;;;;;x;;;
+#will_not_receive_desc;This will prohibit other players from giving us grants. It can be reversed at any time.;;;;;;;;;;;;x;;;
+will_give_title;Enable Giving Grants;;;;;;;;;;;;x;;;
+will_give_desc;This will allow us to give grants to other players. It must be activated before a player chooses to request grants. It can be reversed at any time.;;;;;;;;;;;;x;;;
+will_not_give_title;Disable Giving Grants;;;;;;;;;;;;x;;;
+will_not_give_desc;This will prevent us from getting events when other players request grants. It can be reversed at any time.;;;;;;;;;;;;x;;;
+IBR;Iberia;;;;;;;;;;;;;;x;;;;
+IBR_ADJ;Iberian;;;;;;;;;;;;;;x;;;;
+EVTNAME100014;Birth of a Nation;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+EVTDESC100014; Today crowds gathered in $CAPITAL$ to celebrate $COUNTRY$'s independence. In the modern world, independence can be a fleeting thing-- so we must enjoy it while we can. Today, $COUNTRY_ADJ$ flags wave from every window and corner, and jubilant citizens sing the $COUNTRY_ADJ$ anthem. It is a heartfelt theme that speaks of better tomorrows.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,
