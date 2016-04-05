@@ -1,0 +1,93 @@
+political_decisions = {
+		
+	accept_the_betawis = {
+		potential = {
+			tag = NET
+			NOT = {
+				has_country_flag = accepted_betawis
+			}
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			biologism = 1
+			any_owned_province = {
+				NOT = {
+					is_core = NET
+				}
+			}
+		}
+		
+		effect = {
+			add_accepted_culture = betawis
+
+			all_core = { 
+				add_core = FLA
+				remove_core = THIS 
+			} 
+
+			1413 = { add_core = NET }
+			1421 = { add_core = NET }
+			1384 = { add_core = NET }
+
+			set_country_flag = accepted_betawis
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	our_new_home = {
+		potential = {
+			tag = NET
+			has_country_flag = accepted_betawis
+			NOT = {
+				has_country_flag = our_new_home
+			}
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			NOT = { ruling_party_ideology = reactionary }
+			NOT = { ruling_party_ideology = fascist }
+			citizens_rights = all_voting_pops
+			citizenship_policy = limited_citizenship
+			invention = pragmatism
+			money = 50000
+			OR = {
+				upper_house = { ideology = socialist value = 0.3 }
+				upper_house = { ideology = liberal value = 0.3 }
+				AND = {
+					upper_house = { ideology = socialist value = 0.15 }
+					upper_house = { ideology = liberal value = 0.15 }
+				}
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = trek_boers
+				duration = -1
+			}
+			add_country_modifier = {
+				name = boer_republic
+				duration = 7300
+			}
+			JAV = {
+				all_core = { 
+					add_core = NET
+					remove_core = JAV 
+				} 
+			}
+
+			set_country_flag = our_new_home
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
