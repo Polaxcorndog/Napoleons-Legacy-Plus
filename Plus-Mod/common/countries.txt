@@ -6,7 +6,7 @@ REB 	= 	"countries/rebels.txt"
 ### NEW NATIONS MOD ###
 
 ##NPL Custom
-BAK   ="countries/Batavian Kingdom.txt"
+BAK   ="countries/Batavian Empire.txt"
 
 ##HPM
 PGG		="countries/Pingnan Guo.txt"
