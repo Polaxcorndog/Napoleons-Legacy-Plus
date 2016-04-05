@@ -1,2 +1,6 @@
-BAK;Batavian Empire;Batavian Empire;Batavian Empire,Batavian Empire;;;;;;;;;x;;;;
-BAK_republic;Batavian Republic;Batavian Republic;Batavian Republic;Batavian Republic;;;;;;;;;x;;;;
+BAK;Batavian Empire;;;;;;;;;;;;;;;;;;;;;;;;x
+BAK_absolute_monarchy;Batavian Empire;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BAK_presidential_dictatorship;Batavian Republic;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BAK_hms_government;Batavian Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BAK_democracy;Batavian Republic;;;;;;;;;;;;;;;;;;;;;;;;;x
+BAK_ADJ;Batavian;Batavian;Batavian;;Batavian;;;;;;;;;x;;;;
