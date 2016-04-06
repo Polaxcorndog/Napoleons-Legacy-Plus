@@ -1261,7 +1261,6 @@
 		size = 250
 	}
 
-
 	bureaucrats = {
 		culture = betawis
 		religion = protestant
@@ -1376,6 +1375,12 @@
 		size = 350
 	}
 
+	bureaucrats = {
+		culture = betawis
+		religion = protestant
+		size = 500
+	}
+
 	farmers = {
 		culture = betawis
 		religion = protestant
@@ -1454,6 +1459,12 @@
 		culture = javan
 		religion = sunni
 		size = 135000
+	}
+
+	bureaucrats = {
+		culture = betawis
+		religion = protestant
+		size = 500
 	}
 
 	aristocrats = {
@@ -1560,6 +1571,12 @@
 		size = 180750
 	}
 
+	bureaucrats = {
+		culture = betawis
+		religion = protestant
+		size = 500
+	}
+
 	farmers = {
 		culture = betawis
 		religion = protestant
@@ -1572,6 +1589,12 @@
 		culture = betawis
 		religion = protestant
 		size = 300
+	}
+
+	bureaucrats = {
+		culture = betawis
+		religion = protestant
+		size = 500
 	}
 
 	aristocrats = {
@@ -1752,6 +1775,12 @@
 		size = 200
 	}
 
+	bureaucrats = {
+		culture = betawis
+		religion = protestant
+		size = 500
+	}
+
 	clergymen = {
 		culture = javan
 		religion = sunni
@@ -1918,6 +1947,12 @@
 		size = 75
 	}
 
+	bureaucrats = {
+		culture = betawis
+		religion = protestant
+		size = 500
+	}
+
 	clergymen = {
 		culture = betawis
 		religion = protestant
@@ -1996,6 +2031,12 @@
 		culture = betawis
 		religion = protestant
 		size = 300
+	}
+
+	bureaucrats = {
+		culture = betawis
+		religion = protestant
+		size = 500
 	}
 
 	clergymen = {
