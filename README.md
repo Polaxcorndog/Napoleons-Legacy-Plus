@@ -3,8 +3,8 @@
 Proposed Changes
 
 **British Empire Stuff**
-	
-- East india sphered by british empire
+
+- East india Owned by British
 
 - If British Empire loses the East India Company Rebellion, the monarchy gets overthrown, country flips to canada, caribbean becomes part of canada, changes to republic.
 
@@ -16,15 +16,7 @@ Proposed Changes
 
 - Annexation of native confederation, and accepting the natives later game tech
 
-**Spanish Stuff**
-
-- Rebel movement to start civil war in napoleonic spain, which france and napo spain have to fight
-
 **Netherlands Stuff**
 
-- Abandon old lands, focus on new lands (accepting javanese, and conquer rest indonesia)
-
-**Ottoman Stuff**
-
-- Add in Decisions for Ottomans to play both French and Austrian Powers
+- Abandon old lands, focus on new lands (accepting javanese, and conquer rest indonesia) [DONE]
 
