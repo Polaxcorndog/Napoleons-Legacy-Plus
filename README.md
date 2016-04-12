@@ -20,3 +20,6 @@ Proposed Changes
 
 - Abandon old lands, focus on new lands (accepting javanese, and conquer rest indonesia) [DONE]
 
+
+
+http://oldforum.paradoxplaza.com/forum/showthread.php?640602-Napoleon-s-Legacy
