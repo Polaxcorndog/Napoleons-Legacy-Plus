@@ -2,6 +2,10 @@
 
 Proposed Changes
 
+**BUGS**
+
+- Claim Bolivia Decision Broken
+
 **British Empire Stuff**
 
 - East india Owned by British [DONE]
