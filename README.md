@@ -4,7 +4,7 @@ Proposed Changes
 
 **British Empire Stuff**
 
-- East india Owned by British
+- East india Owned by British [DONE]
 
 - If British Empire loses the East India Company Rebellion, the monarchy gets overthrown, country flips to canada, caribbean becomes part of canada, changes to republic.
 
