@@ -23,6 +23,14 @@ political_decisions = {
 			change_tag = BAK
 			primary_culture = dutch
 			add_accepted_culture = betawis
+			BAK = {
+				any_owned_province = {
+					limit = {
+						has_pop_culture = betawis
+					}
+					reduce_pop = 2.3
+				}
+			}
 
 			1413 = { add_core = BAK }
 			1421 = { add_core = BAK }
@@ -73,20 +81,23 @@ political_decisions = {
 				name = boer_republic
 				duration = 7300
 			}
-			NET = {
+			BAK = {
 				any_owned_province = {
 					limit = {
 						has_pop_culture = betawis
+						type = bureaucrats
+
 					}
-					reduce_pop = 2.3
+					reduce_pop = 2.0
 				}
 			}
 			JAV = {
 				all_core = { 
-					add_core = NET
+					add_core = BAK
 					remove_core = JAV 
 				} 
 			}
+			money = -50000
 
 			set_country_flag = our_new_home
 		}
