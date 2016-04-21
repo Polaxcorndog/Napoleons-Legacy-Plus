@@ -2344,7 +2344,13 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 250
+		size = 350
+	}
+
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 350
 	}
 
 	artisans = {
@@ -2392,6 +2398,18 @@
 		culture = british
 		religion = protestant
 		size = 2000
+	}
+
+	clergymen = {
+		culture = scottish
+		religion = protestant
+		size = 300
+	}
+
+	farmers = {
+		culture = scottish
+		religion = protestant
+		size = 10600
 	}
 }
 #Windsor (67400/16850 POPS)
@@ -2638,7 +2656,19 @@
 	farmers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 6550
+		size = 16550
+	}
+
+	clergymen = {
+		culture = scottish
+		religion = protestant
+		size = 300
+	}
+
+	farmers = {
+		culture = scottish
+		religion = protestant
+		size = 5600
 	}
 
 	clergymen = {
@@ -2985,6 +3015,12 @@
 		size = 125
 	}
 
+	craftsmen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 150
+	}
+
 	artisans = {
 		culture = anglo_canadian
 		religion = protestant
@@ -3013,6 +3049,12 @@
 		culture = french_canadian
 		religion = catholic
 		size = 500
+	}
+
+	craftsmen = {
+		culture = french_canadian
+		religion = catholic
+		size = 350
 	}
 
 	artisans = {
@@ -3276,6 +3318,28 @@
 		religion = catholic
 		size = 41000
 	}
+
+	clergymen = {
+		culture = scottish
+		religion = protestant
+		size = 300
+	}
+	farmers = {
+		culture = scottish
+		religion = protestant
+		size = 3600
+	}
+
+	clergymen = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 300
+	}
+	farmers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 3600
+	}
 }
 #Sherbrooke (68000/17000 POPS)
 66 = {
@@ -3531,13 +3595,31 @@
 	farmers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 14600
+		size = 18600
 	}
 
 	labourers = {
 		culture = french_canadian
 		religion = catholic
 		size = 1100
+	}
+
+	clergymen = {
+		culture = scottish
+		religion = protestant
+		size = 100
+	}
+
+	craftsmen = {
+		culture = scottish
+		religion = protestant
+		size = 250
+	}
+
+	farmers = {
+		culture = scottish
+		religion = protestant
+		size = 10600
 	}
 
 	labourers = {
@@ -3619,7 +3701,19 @@
 	farmers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 4650
+		size = 10650
+	}
+
+	clergymen = {
+		culture = scottish
+		religion = protestant
+		size = 100
+	}
+
+	farmers = {
+		culture = scottish
+		religion = protestant
+		size = 4600
 	}
 
 }
