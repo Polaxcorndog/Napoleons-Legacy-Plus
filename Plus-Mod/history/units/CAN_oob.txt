@@ -384,12 +384,12 @@ navy = {
 
 	ship = {
 		name= "HMS Mercury"
-		type = frigate
+		type = commerce_raider
 	}
 
 	ship = {
 		name= "HMS Mermaid"
-		type = frigate
+		type = commerce_raider
 	}
 
 	ship = {

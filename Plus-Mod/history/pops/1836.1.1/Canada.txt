@@ -2996,17 +2996,29 @@
 		religion = protestant
 		size = 750
 	}
+
+	clerks = {
+		culture = british
+		religion = protestant
+		size = 850
+	}
 	
 	soldiers = {
 		culture = british
 		religion = protestant
-		size = 1550
+		size = 1650
 	}
 
 	bureaucrats = {
 		culture = anglo_canadian
 		religion = protestant
 		size = 200
+	}
+
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 150
 	}
 
 	clergymen = {
@@ -3030,13 +3042,13 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 250
+		size = 650
 	}
 
 	farmers = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 13425
+		size = 14425
 	}
 
 	bureaucrats = {
@@ -3048,7 +3060,7 @@
 	clergymen = {
 		culture = french_canadian
 		religion = catholic
-		size = 500
+		size = 600
 	}
 
 	craftsmen = {
@@ -3060,7 +3072,7 @@
 	artisans = {
 		culture = french_canadian
 		religion = catholic
-		size = 6000
+		size = 7000
 	}
 
 	soldiers = {
@@ -3557,6 +3569,12 @@
 		size = 625
 	}
 
+	craftsmen = {
+		culture = british
+		religion = protestant
+		size = 250
+	}
+
 	artisans = {
 		culture = british
 		religion = protestant
@@ -3572,6 +3590,12 @@
 		culture = anglo_canadian
 		religion = protestant
 		size = 100
+	}
+
+	capitalists = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 20
 	}
 
 	clergymen = {
@@ -3733,11 +3757,6 @@
 		size = 500
 	}
 
-	clerks = {
-		culture = british
-		religion = protestant
-		size = 850
-	}
 	bureaucrats = {
 		culture = anglo_canadian
 		religion = protestant

@@ -3015,7 +3015,7 @@ restore_british_raj = {
 			tag = KUT
 		}
 		THIS = {
-			tag = EIC
+			tag = CAN
 			OR = {
 				government = absolute_monarchy
 				government = prussian_constitutionalism

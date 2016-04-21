@@ -100,4 +100,3 @@ upper_house = {
 
 
 oob = "CAN_oob.txt"
-oob = "EIC_oob.txt"
