@@ -1079,7 +1079,7 @@
 	farmers = {
 		culture = metis
 		religion = catholic
-		size = 910
+		size = 2910
 	}
 
 	aristocrats = {
@@ -2116,11 +2116,6 @@
 }
 #Sudbury (20700/5175 POPS)
 52 = {
-	soldiers = {
-		culture = british
-		religion = protestant
-		size = 1000
-	}
 	aristocrats = {
 		culture = british
 		religion = protestant
@@ -2162,6 +2157,13 @@
 		religion = protestant
 		size = 250
 	}
+
+	labourers = {
+		culture = anglo_canadian
+		religion = protestant
+		size = 3750
+	}
+
 	aristocrats = {
 		culture = cree
 		religion = animist
@@ -2186,10 +2188,10 @@
 		size = 25
 	}
 
-	farmers = {
+	labourers = {
 		culture = cree
 		religion = animist
-		size = 1750
+		size = 4950
 	}
 }
 #Barrie (30800/7700 POPS)
@@ -2947,7 +2949,7 @@
 	farmers = {
 		culture = cree
 		religion = animist
-		size = 520
+		size = 1920
 	}
 }
 #Fort George (1600/400 POPS)
@@ -3601,7 +3603,7 @@
 	clergymen = {
 		culture = anglo_canadian
 		religion = protestant
-		size = 100
+		size = 150
 	}
 
 	artisans = {
@@ -3622,10 +3624,10 @@
 		size = 18600
 	}
 
-	labourers = {
+	farmers = {
 		culture = french_canadian
 		religion = catholic
-		size = 1100
+		size = 2100
 	}
 
 	clergymen = {
@@ -3637,7 +3639,7 @@
 	craftsmen = {
 		culture = scottish
 		religion = protestant
-		size = 250
+		size = 450
 	}
 
 	farmers = {

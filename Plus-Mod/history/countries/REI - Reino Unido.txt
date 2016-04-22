@@ -12,13 +12,13 @@ prestige = 30
 
 # Political reforms
 slavery = yes_slavery
-upper_house_composition = state_equal_weight
+upper_house_composition = appointed
 vote_franschise = wealth_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = jefferson_method
-political_parties = non_secret_ballots
+political_parties = gerrymandering
 
 # Social Reforms
 wage_reform = no_minimum_wage
