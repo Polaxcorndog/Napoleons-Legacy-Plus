@@ -53,44 +53,181 @@ RUS = {
 
 leader = {
 	name = "Thomas Cochrane"
-	date = 1831.1.1
+	picture = eng_adm_cochrane
+	date = 1832.1.1
 	type = sea
 	personality = charismatic
 	background = adventurer
 	prestige = 0.1
+}
 
+leader = {
+	name = "Edward Codrington"
+	picture = eng_adm_codrington
+	date = 1836.1.1
+	type = sea
+	personality = daring
+	background = expert_raider
+	prestige = 0.1
+}
+
+leader = {
+	name = "Sir George Cockburn"
+	picture = eng_adm_cockburn
+	date = 1812.1.1
+	type = sea
+	personality = earnest
+	background = old_school
+	prestige = 0.1
+}
+
+leader = {
+	name = "William Parker"
+	picture = eng_adm_parker
+	date = 1830.1.1
+	type = land
+	personality = calm
+	background = exranker
+}
+
+leader = {
+	name = "Edward Blakeney"
+	picture = eng_gen_blakeney
+	date = 1825.1.1
+	type = land
+	personality = indifferent
+	background = gifted_administrator
+	prestige = 0.1
+}
+
+leader = {
+	name = "Arthur Wellesley"
+	picture = european_general_34
+	date = 1810.1.1
+	type = land
+	personality = heroic
+	background = school_of_defense
+	prestige = 0.1
+}
+
+leader = {
+	name = "Hugh Gough"
+	picture = eng_gen_goughhugh
+	date = 1830.1.1
+	type = land
+	personality = dauntless
+	background = school_of_the_bayonet
+	prestige = 0.1
+}
+
+leader = {
+	name = "John Seaton"
+	picture = eng_gen_seaton
+	date = 1825.1.1
+	type = land
+	personality = doughty
+	background = school_of_offense
+	prestige = 0.1
+}
+
+leader = {
+	name = "Henry Smith"
+	picture = eng_gen_smith
+	date = 1814.1.1
+	type = land
+	personality = efficient
+	background = gifted_administrator
+	prestige = 0.1
+}
+
+leader = {
+	name = "Henry Hardinge"
+	picture = eng_gen_hardinge
+	date = 1830.1.1
+	type = land
+	personality = tactful
+	background = gifted_administrator
+	prestige = 0.1
+}
+
+leader = {
+	name = "Raglan"
+	picture = eng_gen_raglan
+	date = 1836.1.1
+	type = land
+	personality = mediocre
+	background = aristocrat
+	prestige = 0.0
+}
+
+leader = {
+	name = "Whitworth-Aylmer"
+	date = 1825.1.1
+	type = land
+	personality = reserved
+	background = generals_aide
+	prestige = 0.1
+}
+
+leader = {
+	name = "John Fox Burgoyne"
+	date = 1836.1.1
+	type = land
+	personality = able
+	background = engineer
+	prestige = 0.0
+}
+
+
+
+leader = {
+	name = "Sir George Brown"
+	date = 1836.1.1
+	type = land
+	personality = harsh
+	background = cavalry_school
+	prestige = 0.0
+}
+
+leader = {
+	name = "James Dundas"
+	date = 1836.1.1
+	type = sea
+	personality = cautious
+	background = elderly
+	prestige = 0.0
 }
 
 army = {
 	name = "The Canada Garrison"
 	location = 57 
 	regiment = {
-		name= "1.6th Division"
+		name= "1.6th Infantry Division"
 		type = infantry
 		home = 56
 	}
 
 	regiment = {
-		name= "2.6th Division"
+		name= "2.6th Infantry Division"
 		type = infantry
 		home = 54
 	}
 
 	regiment = {
-		name= "3.6th Division"
+		name= "3.6th Infantry Division"
 		type = infantry
 		home = 57
 	}
 
 	regiment = {
-		name= "4.6th Division"
-		type = infantry
+		name= "1.6th Royal Guards Division"
+		type = guard
 		home = 46
 	}
 
 	regiment = {
-		name= "5.6th Division"
-		type = infantry
+		name= "2.6th Royal Guards Division"
+		type = guard
 		home = 46
 	}
 
@@ -111,13 +248,13 @@ army = {
 	name = "2nd Corps"
 	location = 71
 	regiment = {
-		name= "1.8th Division"
+		name= "1.8th Infantry Division"
 		type = infantry
 		home = 71
 	}
 
 	regiment = {
-		name= "2.8th Division"
+		name= "2.8th Infantry Division"
 		type = infantry
 		home = 72
 	}
@@ -148,7 +285,7 @@ army = {
 
 navy = {
 	name = "Atlantic Fleet"
-	location = 73
+	location = 74
 	ship = {
 		name= "HMS Monarch"
 		type = manowar
@@ -225,6 +362,31 @@ navy = {
 	}
 
 	ship = {
+		name= "HMS Achille"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Canopus"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Donegal"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Boadicea"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Dryad"
+		type = frigate
+	}
+
+	ship = {
 		name= "HMS America"
 		type = frigate
 	}
@@ -267,8 +429,18 @@ navy = {
 }
 
 navy = {
-	name = "1st Reserve Squadron"
-	location = 71
+	name = "North America Station"
+	location = 71 #Halifax
+	ship = {
+		name= "HMS Saint Vincent"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Wellesley"
+		type = manowar
+	}
+
 	ship = {
 		name= "HMS Blenheim"
 		type = manowar
@@ -317,51 +489,6 @@ navy = {
 	ship = {
 		name= "HMS Melampus"
 		type = frigate
-	}
-
-}
-
-navy = {
-	name = "5th Reserve Squadron"
-	location = 74
-	ship = {
-		name= "HMS Achille"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Canopus"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Donegal"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Boadicea"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Dryad"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "North America Station"
-	location = 71 #Halifax
-	ship = {
-		name= "HMS Saint Vincent"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Wellesley"
-		type = manowar
 	}
 
 	ship = {
@@ -424,67 +551,11 @@ navy = {
 		type = frigate
 	}
 
-}
-
-navy = {
-	name = "West Africa Station"
-	location = 1884 #Freetown
 	ship = {
 		name= "HMS Diana"
 		type = frigate
 	}
 
-}
-
-navy = {
-	name = "East Indies Station"
-	location = 1321 #Colombo
-	ship = {
-		name= "HMS Agincourt"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Madagascar"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Portland"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Winchester"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Alfred"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Andromeda"
-		type = frigate
-	}
-	ship = {
-		name= "7th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "10th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "8th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "9th Transport Flotilla"
-		type = clipper_transport
-	}
 }
 
 navy = {
@@ -527,8 +598,58 @@ navy = {
 
 #INDIA
 
+navy = {
+	name = "East Indies Station"
+	location = 1321 #Colombo
+	ship = {
+		name= "HMS Agincourt"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Madagascar"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Portland"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Winchester"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Alfred"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Andromeda"
+		type = frigate
+	}
+	ship = {
+		name= "7th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "8th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "9th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "10th Transport Flotilla"
+		type = clipper_transport
+	}
+}
+
 army = {
-	name = "The Calcutta Army"
+	name = "Company Army"
 	location = 1251
 	regiment = {
 		name= "1.10th Company Artillery"

@@ -2981,6 +2981,7 @@ restore_british_raj = {
 	war_name = WAR_BRITISH_RAJ_NAME
 	
 	can_use = {
+		year = 1840
 		is_vassal = no
 		is_disarmed = no
 		civilized = no
