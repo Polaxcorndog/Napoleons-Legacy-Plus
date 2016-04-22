@@ -1,45 +1,46 @@
-capital = 2087
-primary_culture = boer
+capital = 243
+primary_culture = yankee
 religion = protestant
-government = hms_government
-plurality = 0.6
-nationalvalue = nv_productivity
-literacy = 0.2
+government = democracy
+plurality = 0.5
+nationalvalue = nv_liberty
+literacy = 0.50
 civilized = yes
-is_releasable_vassal = no
+prestige = 25
+
 
 # Political reforms
 slavery = no_slavery
 upper_house_composition = state_equal_weight
-vote_franschise = wealth_voting
+vote_franschise = universal_weighted_voting
 public_meetings = yes_meeting
 press_rights = free_press
 trade_unions = all_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = gerrymandering
 
 # Social Reforms
-wage_reform = low_minimum_wage
+wage_reform = no_minimum_wage
 work_hours = ten_hours
-safety_regulations = low_safety
+safety_regulations = no_safety
 health_care = no_health_care
-unemployment_subsidies = trinket_subsidies
-pensions = trinket_pensions 
+unemployment_subsidies = no_subsidies
+pensions = no_pensions 
 school_reforms = no_schools
 
-# New Reforms
+#New Reforms
 conscription = two_year_draft
 debt_law = debtors_prisons
 penal_system = capital_punishment
 child_labor = child_labor_legal
-citizens_rights = primary_culture_only
+citizens_rights = culture_voting_only
 
-ruling_party = SAF_conservative_2
+ruling_party = NEN_liberal
 upper_house = {
 	fascist = 0
-	liberal = 14
-	conservative = 77
-	reactionary = 9
+	liberal = 41
+	conservative = 55
+	reactionary = 4
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
@@ -55,23 +56,32 @@ post_nelsonian_thought = 1
 clipper_design = 1
 naval_design_bureaus = 1
 alphabetic_flag_signaling = 1
+the_command_principle = 1
 classicism_n_early_romanticism = 1
 late_enlightenment_philosophy = 1
 malthusian_thought = 1
 enlightenment_thought = 1
 introspectionism = 1
 private_banks = 1
+stock_exchange = 1
 no_standard = 1
+ad_hoc_money_bill_printing = 1
 early_classical_theory_and_critique = 1
 freedom_of_trade = 1
 guild_based_production = 1
+piston_steam_engine = 1
 publishing_industry = 1
+mechanized_mining = 1
 basic_chemistry = 1
+battleship_column_doctrine = 1
+steamers = 1
+experimental_railroad = 1
 
-# Inventions
+#Inventions
 #corvettes = yes
+traditionalism = yes
+political_religion = yes
+paternalism = yes
 
-set_country_flag = post_colonial_country
-
-oob = "SAF_OOB.txt"
-
+schools = commerce_tech_school
+oob = "NEN_oob.txt"

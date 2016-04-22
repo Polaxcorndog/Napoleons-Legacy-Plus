@@ -2,20 +2,32 @@
 
 
 INC = {
-	value = 125
+	value = 150
 	level = 5
-	influence_value = 25
+	influence_value = 50
 }
 
 HUD = {
 	value = 200
 	level = 5
-	influence_value = 25
+	influence_value = 50
 }
 
 EIC = {
 	value = 200
-	level = 5
+	level = 4
+	influence_value = 25
+}
+
+SPA = {
+	value = 200
+	level = 4
+	influence_value = 25
+}
+
+NET = {
+	value = 200
+	level = 4
 	influence_value = 25
 }
 
@@ -83,14 +95,14 @@ army = {
 	}
 
 	regiment = {
-		name= "6.6th Division"
-		type = infantry
+		name= "1.6th Artillery Division"
+		type = artillery
 		home = 58
 	}
 
 	regiment = {
-		name= "7.6th Division"
-		type = infantry
+		name= "2.6th Artillery Division"
+		type = artillery
 		home = 65
 	}
 }
@@ -111,8 +123,8 @@ army = {
 	}
 
 	regiment = {
-		name= "3.8th Division"
-		type = infantry
+		name= "1.8th Dragoon Division"
+		type = dragoon
 		home = 75
 	}	
 }
@@ -379,7 +391,7 @@ navy = {
 
 	ship = {
 		name= "HMS Hebe"
-		type = frigate
+		type = commerce_raider
 	}
 
 	ship = {
@@ -428,6 +440,11 @@ navy = {
 	name = "East Indies Station"
 	location = 1321 #Colombo
 	ship = {
+		name= "HMS Agincourt"
+		type = manowar
+	}
+
+	ship = {
 		name= "HMS Madagascar"
 		type = frigate
 	}
@@ -442,6 +459,32 @@ navy = {
 		type = frigate
 	}
 
+	ship = {
+		name= "HMS Alfred"
+		type = frigate
+	}
+
+	ship = {
+		name= "HMS Andromeda"
+		type = frigate
+	}
+	ship = {
+		name= "7th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "10th Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "8th Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "9th Transport Flotilla"
+		type = clipper_transport
+	}
 }
 
 navy = {
@@ -481,24 +524,6 @@ navy = {
 	}
 }
 
-navy = {
-	name = "2nd Transport Squadron"
-	location = 1251
-	ship = {
-		name= "7th Transport Flotilla"
-		type = clipper_transport
-	}
-
-	ship = {
-		name= "8th Transport Flotilla"
-		type = clipper_transport
-	}
-	ship = {
-		name= "9th Transport Flotilla"
-		type = clipper_transport
-	}
-
-}
 
 #INDIA
 
@@ -506,19 +531,19 @@ army = {
 	name = "The Calcutta Army"
 	location = 1251
 	regiment = {
-		name= "1.10th Artillery Division"
+		name= "1.10th Company Artillery"
 		type = artillery
 		home = 1248
 	}
 
 	regiment = {
-		name= "2.10th Artillery Division"
+		name= "2.10th Company Artillery"
 		type = artillery
 		home = 1247
 	}
 
 	regiment = {
-		name= "3.10th Artillery Division"
+		name= "3.10th Company Artillery"
 		type = artillery
 		home = 1251
 	}
@@ -560,35 +585,4 @@ army = {
 	}
 
 }
-
-navy = {
-	name = "Indian Fleet"
-	location = 1251
-	ship = {
-		name= "HMS Agincourt"
-		type = manowar
-	}
-
-	ship = {
-		name= "HMS Alfred"
-		type = frigate
-	}
-
-	ship = {
-		name= "HMS Andromeda"
-		type = frigate
-	}
-
-}
-
-navy = {
-	name = "2nd Transport Squadron"
-	location = 1251
-	ship = {
-		name= "7th Transport Flotilla"
-		type = clipper_transport
-	}
-
-}
-
 
