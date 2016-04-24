@@ -177,10 +177,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA121265"
-		any_owned = {
-			limit = { NOT = { province_id = 2699 } }
-			add_core = BNG
-		}
 		any_pop = {
 			limit = {
 				has_pop_culture = bengali
@@ -447,7 +443,7 @@ country_event = {
 				militancy = 4
 			}
 		}
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 90 }
 	}
 	option = {
 		name = "EVTOPTB4662019"
@@ -460,7 +456,7 @@ country_event = {
 			value = 50
 		}
 		clr_country_flag = orissa_claim
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 10 }
 		}
 }
 country_event = {
@@ -489,7 +485,7 @@ country_event = {
 			value = -50
 		}
 		set_country_flag = hyderabad_eic_conflict
-		ai_chance = { factor = 80 }
+		ai_chance = { factor = 90 }
 	}
 	option = {
 		name = "EVTOPTB4662020"
@@ -498,7 +494,7 @@ country_event = {
 			who = HYD
 			value = 50
 		}
-		ai_chance = { factor = 20 }
+		ai_chance = { factor = 10 }
 	}
 }
 country_event = {
